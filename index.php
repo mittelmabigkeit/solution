@@ -17,4 +17,10 @@ $class2 = new ConcreteClass2;
 $class2->printOut();
 echo "</br>";
 echo $class2->prefixValue('FOO_') ."\n";
+echo "</br>";
+$class3 = new ConcreteClass1;
+echo $class3 -> somethink();
+echo "</br>";
+$class4 = new ConcreteClass2;
+echo $class4 -> somethink();
 ?>
